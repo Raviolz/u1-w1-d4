@@ -5,17 +5,19 @@
 body {
   background-image: url(../imgs/sfondo.png);
   font-family: "Poppins", sans-serif;
+  line-height: 1.8rem;
 }
 header {
   background-image: linear-gradient(#27a3ae, #1c716f);
-  width: 90%;
+  width: 88%;
   margin-inline: auto;
   margin-top: 30px;
   text-align: center;
-  height: 20rem;
+  padding-bottom: 2em;
   color: white;
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: 1.6em;
 }
 
 nav {
@@ -32,7 +34,7 @@ a {
 
 .logo {
   width: 280px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   margin-top: 30px;
 }
 
@@ -41,15 +43,64 @@ article {
   border-style: solid;
   border-width: 1px;
   background-color: white;
-  width: 90%;
+  width: 88%;
   margin-inline: auto;
   padding-left: 4%;
   padding-right: 4%;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 34px;
   font-weight: 500;
-  margin-bottom: 40px;
-  margin-top: 30px;
+  margin-top: 1.2em;
+  margin-bottom: 32px;
+  line-height: 40px;
+}
+
+.credit {
+  color: rgb(150, 150, 150);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+i {
+  margin-right: 2%;
+}
+
+main {
+  font-size: 19px;
+}
+
+span {
+  color: red;
+  font-weight: 600;
+}
+
+p,
+ul,
+ol,
+table {
+  margin-bottom: 2rem;
+}
+
+ul li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+ol li {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}
+
+code {
+  background-color: #e6e2d7;
+  border-radius: 5px;
+  border: 1px solid #91908a;
+}
+
+td,
+th,
+table {
+  border: 2px solid black;
 }

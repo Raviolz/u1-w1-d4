@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
   </head>
   <body>
     <header>
@@ -23,50 +30,89 @@
         <a class="link" href="#">&#8658;LAVORA CON NOI&#8656;</a>
       </nav>
     </header>
-     <main>
+    <main>
       <article>
         <h1>Come creare un template per i post</h1>
-        <p>di Mario Rossi <p><p>pubblicato il
-          25-10-2020</p>
-        <p>
-          La prima cosa da fare è suddividere in blocchi logici la pagina,
-          identificando le <span>parti comuni</span> da applicare a tutte le
-          pagine
-        </p>
+        <p class="credit"><i class="fas fa-pen-square"></i>di Mario Rossi - <i class="fas fa-clock"></i>pubblicato il 25-10-2020</p>
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span>parti comuni</span> da applicare a tutte le pagine</p>
         <p>Le varie aree saranno quindi suddivise in:</p>
         <ul>
-          <li>Contenuti di intestazione del tag <span>&lt;header&gt;</span></li>
+          <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
           <li>
             Contenuti centrali variabili del tag
-            <span>&lt;main&gt;</span> (corpo principale)
+            <code>&lt;main&gt;</code> (corpo principale)
           </li>
           <li>
             Contenuti di fine pagina comuni, da inserire nel tag
-            <span>&lt;footer&gt;</span>
+            <code>&lt;footer&gt;</code>
           </li>
         </ul>
         <h2>Formattazione del codice</h2>
-        <p>
-          Il testo dell'articolo dovrà essere formattato per identificare tutte
-          le parti da <span>selezionare con i CSS</span>. Perciò i passi
-          saranno:
-        </p>
+        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span>selezionare con i CSS</span>. Perciò i passi saranno:</p>
         <ol>
-          <li>
-            Progettare su carta il markup finale, assegnando ad ogni specifico
-            testo il tag appropriato
-          </li>
-          <li>
-            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
-            il basso
-          </li>
+          <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+          <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
           <li>Applicare gli stili CSS</li>
         </ol>
+        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+        <table>
+          <caption>
+            Diffusione del CSS
+          </caption>
+          <thead>
+            <tr>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto browser</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </tbody>
+        </table>
+
         <p>
-          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
-          la diffusione pressoché totale.
+          Un test di validazione potrà esser fatto tramite il
+          <a href="https://jigsaw.w3.org/css-validator/" target="blank"> tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto,avremo raggiunto il
+          nostro obiettivo ed esser stati dei veri developers come loro:
         </p>
-        
-            <footer></footer>
+        <iframe
+          width="866"
+          height="487"
+          src="https://www.youtube.com/embed/Yzp_MPyoIqU"
+          title="Da Educatore a Front End Developer- La Storia di Stefano"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <footer></footer>
+      </article>
+    </main>
   </body>
 </html>
